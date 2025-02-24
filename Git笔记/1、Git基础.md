@@ -423,7 +423,7 @@ GitHub提供Git仓库托管服务。
 
 # 补充      
 
-### 关于push产生冲突的问题：  
+### GPT：关于push产生冲突的问题：  
 
 chatGPT: 当远程仓库包含本地没有的文件时，直接执行`git push`通常会失败。因为Git的推送要求远程仓库的状态是当前本地分支的祖先，否则会拒绝非快进的推送操作（non-fast-forward）    
 
@@ -432,7 +432,7 @@ chatGPT: 当远程仓库包含本地没有的文件时，直接执行`git push`�
 `git pull --rebase origin master`   (注：等同 git fetch + git rebase)    
 
 
-### 关于pull：    
+### GPT：关于pull：    
 
 当执行`git pull`时，如果远程文件和本地文件不一致，Git会尝试合并远程和本地的更改，具体行为取决于以下几种情况：    
 1. 本地文件未修改（没有工作区修改）：Git会直接合并，本地文件更新为远程新版本。    
